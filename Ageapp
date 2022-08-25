@@ -1,0 +1,9 @@
+my_age = 28
+your_age = int(input("¿How old are you? "))
+
+if your_age < my_age:
+  print("I'm older than you")
+if your_age > my_age:
+    print("You're older than me")
+elif your_age == my_age:
+     print("We're from the 1994")
